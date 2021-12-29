@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct LandmarkList: View {
-    var body: some View {
+  var body: some View {
+    NavigationView{
       List(landmarks) { Landmark in
-        LandmarkRow(landmark: Landmark)
+        NavigationLink {
+          LandmarkDetail()
+        } label: {
+          LandmarkRow(landmark: Landmark)
+        }
+        
+      
       }
+      .navigationTitle("Landmarks")
     }
+  }
 }
 
 struct LandmarkList_Previews: PreviewProvider {
-    static var previews: some View {
-        LandmarkList()
-    }
+  static var previews: some View {
+    LandmarkList()
+  }
 }
