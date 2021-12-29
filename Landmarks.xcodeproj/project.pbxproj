@@ -126,18 +126,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		BE12CC39277CD92F006636DE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE12CC46277CD931006636DE /* Preview Assets.xcassets in Resources */,
-				BE12CC43277CD931006636DE /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		BE12CC37277CD92F006636DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
