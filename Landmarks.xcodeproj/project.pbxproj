@@ -11,6 +11,9 @@
 		BE12CC41277CD930006636DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC40277CD930006636DE /* ContentView.swift */; };
 		BE12CC43277CD931006636DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE12CC42277CD931006636DE /* Assets.xcassets */; };
 		BE12CC46277CD931006636DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE12CC45277CD931006636DE /* Preview Assets.xcassets */; };
+		BE12CC51277CFCC0006636DE /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = BE12CC50277CFCC0006636DE /* landmarkData.json */; };
+		BE12CC53277CFD07006636DE /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC52277CFD07006636DE /* Landmark.swift */; };
+		BE12CC55277CFE57006636DE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC54277CFE57006636DE /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BE12CC40277CD930006636DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE12CC42277CD931006636DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE12CC45277CD931006636DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE12CC50277CFCC0006636DE /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		BE12CC52277CFD07006636DE /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		BE12CC54277CFE57006636DE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			children = (
 				BE12CC3E277CD930006636DE /* LandmarksApp.swift */,
 				BE12CC40277CD930006636DE /* ContentView.swift */,
+				BE12CC52277CFD07006636DE /* Landmark.swift */,
+				BE12CC54277CFE57006636DE /* ModelData.swift */,
 				BE12CC42277CD931006636DE /* Assets.xcassets */,
+				BE12CC50277CFCC0006636DE /* landmarkData.json */,
 				BE12CC44277CD931006636DE /* Preview Content */,
 			);
 			path = Landmarks;
@@ -127,6 +136,7 @@
 			files = (
 				BE12CC46277CD931006636DE /* Preview Assets.xcassets in Resources */,
 				BE12CC43277CD931006636DE /* Assets.xcassets in Resources */,
+				BE12CC51277CFCC0006636DE /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE12CC41277CD930006636DE /* ContentView.swift in Sources */,
+				BE12CC55277CFE57006636DE /* ModelData.swift in Sources */,
 				BE12CC3F277CD930006636DE /* LandmarksApp.swift in Sources */,
+				BE12CC53277CFD07006636DE /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
