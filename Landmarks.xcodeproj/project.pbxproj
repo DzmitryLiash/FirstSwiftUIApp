@@ -16,6 +16,7 @@
 		BE12CC55277CFE57006636DE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC54277CFE57006636DE /* ModelData.swift */; };
 		BE12CC57277D0178006636DE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC56277D0178006636DE /* CircleImage.swift */; };
 		BE12CC59277D01B2006636DE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC58277D01B2006636DE /* MapView.swift */; };
+		BE12CC5E277D02F1006636DE /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC5D277D02F1006636DE /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BE12CC54277CFE57006636DE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		BE12CC56277D0178006636DE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		BE12CC58277D01B2006636DE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BE12CC5D277D02F1006636DE /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				BE12CC40277CD930006636DE /* ContentView.swift */,
 				BE12CC56277D0178006636DE /* CircleImage.swift */,
 				BE12CC58277D01B2006636DE /* MapView.swift */,
+				BE12CC5D277D02F1006636DE /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				BE12CC55277CFE57006636DE /* ModelData.swift in Sources */,
 				BE12CC3F277CD930006636DE /* LandmarksApp.swift in Sources */,
 				BE12CC53277CFD07006636DE /* Landmark.swift in Sources */,
+				BE12CC5E277D02F1006636DE /* LandmarkRow.swift in Sources */,
 				BE12CC57277D0178006636DE /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
