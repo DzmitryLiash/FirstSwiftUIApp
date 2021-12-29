@@ -6,16 +6,16 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
+
 		BE12CC3F277CD930006636DE /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC3E277CD930006636DE /* LandmarksApp.swift */; };
 		BE12CC41277CD930006636DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC40277CD930006636DE /* ContentView.swift */; };
 		BE12CC43277CD931006636DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE12CC42277CD931006636DE /* Assets.xcassets */; };
 		BE12CC46277CD931006636DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE12CC45277CD931006636DE /* Preview Assets.xcassets */; };
 		BE12CC4D277CE537006636DE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC4C277CE537006636DE /* CircleImage.swift */; };
 		BE12CC4F277CE778006636DE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC4E277CE778006636DE /* MapView.swift */; };
-/* End PBXBuildFile section */
 
-/* Begin PBXFileReference section */
+
+
 		BE12CC3B277CD930006636DE /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE12CC3E277CD930006636DE /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		BE12CC40277CD930006636DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,9 +23,7 @@
 		BE12CC45277CD931006636DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE12CC4C277CE537006636DE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		BE12CC4E277CE778006636DE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-/* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
 		BE12CC38277CD92F006636DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,9 +31,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXFrameworksBuildPhase section */
 
-/* Begin PBXGroup section */
 		BE12CC32277CD92F006636DE = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +69,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
 		BE12CC3A277CD92F006636DE /* Landmarks */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE12CC49277CD931006636DE /* Build configuration list for PBXNativeTarget "Landmarks" */;
@@ -93,9 +87,7 @@
 			productReference = BE12CC3B277CD930006636DE /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
-/* End PBXNativeTarget section */
 
-/* Begin PBXProject section */
 		BE12CC33277CD92F006636DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
@@ -124,9 +116,7 @@
 				BE12CC3A277CD92F006636DE /* Landmarks */,
 			);
 		};
-/* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
 		BE12CC37277CD92F006636DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,9 +128,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
 		BE12CC47277CD931006636DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -315,9 +303,7 @@
 			};
 			name = Release;
 		};
-/* End XCBuildConfiguration section */
 
-/* Begin XCConfigurationList section */
 		BE12CC36277CD92F006636DE /* Build configuration list for PBXProject "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -336,7 +322,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-/* End XCConfigurationList section */
 	};
 	rootObject = BE12CC33277CD92F006636DE /* Project object */;
 }
