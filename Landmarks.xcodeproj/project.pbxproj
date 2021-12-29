@@ -12,6 +12,7 @@
 		BE12CC43277CD931006636DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE12CC42277CD931006636DE /* Assets.xcassets */; };
 		BE12CC46277CD931006636DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE12CC45277CD931006636DE /* Preview Assets.xcassets */; };
 		BE12CC4D277CE537006636DE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC4C277CE537006636DE /* CircleImage.swift */; };
+		BE12CC4F277CE778006636DE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC4E277CE778006636DE /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BE12CC42277CD931006636DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE12CC45277CD931006636DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE12CC4C277CE537006636DE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BE12CC4E277CE778006636DE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BE12CC4C277CE537006636DE /* CircleImage.swift */,
 				BE12CC42277CD931006636DE /* Assets.xcassets */,
 				BE12CC44277CD931006636DE /* Preview Content */,
+				BE12CC4E277CE778006636DE /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE12CC41277CD930006636DE /* ContentView.swift in Sources */,
+				BE12CC4F277CE778006636DE /* MapView.swift in Sources */,
 				BE12CC3F277CD930006636DE /* LandmarksApp.swift in Sources */,
 				BE12CC4D277CE537006636DE /* CircleImage.swift in Sources */,
 			);
