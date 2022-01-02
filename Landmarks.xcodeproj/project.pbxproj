@@ -42,6 +42,7 @@
 		BE29288E2782577E0041A93A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29288D2782577E0041A93A /* PageViewController.swift */; };
 		BE29289027825AB00041A93A /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29288F27825AB00041A93A /* FeatureCard.swift */; };
 		BE29289227825B350041A93A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29289127825B350041A93A /* PageView.swift */; };
+		BE292894278260640041A93A /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE292893278260640041A93A /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		BE29288D2782577E0041A93A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		BE29288F27825AB00041A93A /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		BE29289127825B350041A93A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		BE292893278260640041A93A /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				BE29288D2782577E0041A93A /* PageViewController.swift */,
 				BE29288F27825AB00041A93A /* FeatureCard.swift */,
 				BE29289127825B350041A93A /* PageView.swift */,
+				BE292893278260640041A93A /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				BE12CC59277D01B2006636DE /* MapView.swift in Sources */,
 				BE29287627822FCA0041A93A /* GraphCapsule.swift in Sources */,
 				BE12CC55277CFE57006636DE /* ModelData.swift in Sources */,
+				BE292894278260640041A93A /* PageControl.swift in Sources */,
 				BE29285F27821E3A0041A93A /* FavoriteButton.swift in Sources */,
 				BE2928802782397E0041A93A /* CategoryItem.swift in Sources */,
 				BE29287827822FCA0041A93A /* HikeDetail.swift in Sources */,
