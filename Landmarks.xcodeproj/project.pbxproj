@@ -118,9 +118,9 @@
 		BE12CC5A277D0245006636DE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE12CC40277CD930006636DE /* ContentView.swift */,
 				BE29287A278236C40041A93A /* Categories */,
 				BE29287127822FCA0041A93A /* Hikes */,
-				BE12CC40277CD930006636DE /* ContentView.swift */,
 				BE29286027821F1B0041A93A /* Landmarks */,
 				BE29286C27822B5C0041A93A /* Badges */,
 				BE29286127821F2E0041A93A /* Helpers */,
