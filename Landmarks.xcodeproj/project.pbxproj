@@ -20,6 +20,7 @@
 		BE12CC60277D0695006636DE /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC5F277D0695006636DE /* LandmarkList.swift */; };
 		BE12CC62277D0875006636DE /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12CC61277D0875006636DE /* LandmarkDetail.swift */; };
 		BE29285F27821E3A0041A93A /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29285E27821E3A0041A93A /* FavoriteButton.swift */; };
+		BE292863278224E70041A93A /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE292862278224E70041A93A /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BE12CC5F277D0695006636DE /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		BE12CC61277D0875006636DE /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		BE29285E27821E3A0041A93A /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		BE292862278224E70041A93A /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				BE12CC40277CD930006636DE /* ContentView.swift */,
 				BE29286027821F1B0041A93A /* Landmarks */,
 				BE29286127821F2E0041A93A /* Helpers */,
+				BE292862278224E70041A93A /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				BE12CC59277D01B2006636DE /* MapView.swift in Sources */,
 				BE12CC55277CFE57006636DE /* ModelData.swift in Sources */,
 				BE29285F27821E3A0041A93A /* FavoriteButton.swift in Sources */,
+				BE292863278224E70041A93A /* HexagonParameters.swift in Sources */,
 				BE12CC60277D0695006636DE /* LandmarkList.swift in Sources */,
 				BE12CC62277D0875006636DE /* LandmarkDetail.swift in Sources */,
 				BE12CC3F277CD930006636DE /* LandmarksApp.swift in Sources */,
