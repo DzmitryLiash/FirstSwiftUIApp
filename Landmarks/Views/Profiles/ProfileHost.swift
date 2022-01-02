@@ -16,15 +16,15 @@ struct ProfileHost: View {
   var body: some View {
     VStack(alignment: .leading, spacing: 20) {
       HStack {
-          Spacer()
-          EditButton()
+        Spacer()
+        EditButton()
       }
       
       if editMode?.wrappedValue == .inactive {
-             ProfileSummary(profile: modelData.profile)
-         } else {
-             Text("Profile Editor")
-         }
+        ProfileSummary(profile: modelData.profile)
+      } else {
+        ProfileEditor(profile: $draftProfile)
+      }
     }
     .padding()
   }
@@ -34,6 +34,6 @@ struct ProfileHost_Previews: PreviewProvider {
   static var previews: some View {
     ProfileHost()
       .environmentObject(ModelData())
-
+    
   }
 }
