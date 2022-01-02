@@ -9,9 +9,8 @@ import Foundation
 import Combine
 
 final class ModelData: ObservableObject {
-  
+ 
   @Published var landmarks: [Landmark] = load("landmarkData.json")
-
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
